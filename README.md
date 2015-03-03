@@ -1,3 +1,8 @@
+# Todos
+
+* Que pasa cuando hay un error de conexion
+* Que pasa cuando no encuentra contacto, ¿debería ofrecer agregarlo?
+
 # App name
 
 [brief description of the app]
