@@ -1,0 +1,10 @@
+<ul class="options user_data note">
+  <li class="person">
+    <b><a target="_blank" href="https://app.pipedrive.com/person/details/{{id}}">{{ name }} </a></b>
+  </li>
+  <li>{{ org_name }}</li>
+  <li class="email"><a href="mailto:{{ email }}">{{ email }}</a></li>
+  <li class="phone">
+	  <b>{{ phone }}</b>
+  </li>
+</ul>

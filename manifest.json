@@ -9,5 +9,18 @@
   "private": true,
   "location": "ticket_sidebar",
   "version": "1.0",
-  "frameworkVersion": "1.0"
+  "frameworkVersion": "1.0",
+  "app": {
+	  "parameters": {
+		  "pipedrive_token": {"label": "Pipedrive Token"}
+	  }
+  },
+  "domainWhitelist": ["api.pipedrive.com"],
+  "parameters": [
+	  {
+		  "name": "pipedrive_token",
+		  "type": "text",
+		  "required": true
+	  }
+  ]
 }

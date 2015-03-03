@@ -1,0 +1,18 @@
+ul.options li {
+	display: block;
+	background: app-asset-url("bullets.png") no-repeat scroll 0 -275px;
+	padding: 0 0 0 17px;
+	margin: 5px 11px 8px 0;
+}
+
+ul.options li.email {
+	background-position: 0 -426px;
+}
+
+ul.options li.person {
+	background: none;
+}
+
+ul.options li.phone {
+	background-position: 0 -872px;
+}
