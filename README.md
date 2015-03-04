@@ -14,7 +14,7 @@ You have 2 options:
 ### 2. Upload de App to your Zendesk account
 You need to upload the App Package as explained in this guide [Uploading and installing your private app in Zendesk](https://support.zendesk.com/hc/en-us/articles/203691246). 
 
-### Why?
+## Why we built this?
 We used to use [Highrise](http://www.highrisehq.com) but given that is hasn't received any improvent, we moved to [Pipedrive](http://www.pipedrive.com), but we couldn't read our contact information.
 
 So we built it our selfs.
