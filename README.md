@@ -1,6 +1,7 @@
 # Zendesk Pipedrive contact information
 
 Display and update contact information from [Pipedrive](http://www.pipedrive.com) directly on [Zendesk](http://www.zendesk.com).
+![Screenshot](https://raw.github.com/ITLinuxCL/zendesk_pipedrive/master/assets/screenshot.png)
 
 ## How to install
 This is a `Private Zendesk App` and as such is not available on the Zendesk Marketplace, yet ;). This means that you must upload it yourself to your Zendesk account.
@@ -19,7 +20,7 @@ We used to use [Highrise](http://www.highrisehq.com) but given that is hasn't re
 
 So we built it our selfs.
 
-### The following information is displayed:
+## The following information is displayed:
 
 * Company name
 * Person name
@@ -30,10 +31,8 @@ If the contact does not exists on Pipedrive, it let you create it.
 
 Please submit bug reports hera as Issues. Pull requests are welcome.
 
-### Screenshot(s):
-![Screenshot](https://raw.github.com/ITLinuxCL/zendesk_pipedrive/master/assets/screenshot.png)
 
-# Todos
+## Todos
 
 * Mostly check and manage API errors
 * Add company in Pipedrive if it doesn't exists
