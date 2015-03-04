@@ -53,7 +53,14 @@
   },
   
   "new_contact": {
-    "not_found": "No se ha encontrado ningun contacto con esta direccion de correo",
-    "add_contact": "Agregar este usuario de Zendesk a Pipedrive"
+    "not_found": {
+    	"value": "No se ha encontrado ningun contacto con esta direccion de correo",
+		"title": ""
+    },
+
+    "add_contact": {
+    	"value": "Agregar este usuario de Zendesk a Pipedrive",
+		"title": ""
+    }
   }
 }
