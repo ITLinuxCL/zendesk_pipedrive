@@ -2,6 +2,11 @@
 
 Display and update contact information from [Pipedrive](http://www.pipedrive.com) directly on [Zendesk](http://www.zendesk.com).
 
+## How to install
+You can clone this repo and build the package as explained here: [Installing and using the Zendesk apps tools](https://support.zendesk.com/hc/en-us/articles/203691236) or download it directly from here [zendesk_pipedrive-latest.zip](https://raw.github.com/ITLinuxCL/zendesk_pipedrive/master/package/zendesk_pipedrive-latest.zip).
+
+Then you have to install it following this guide [Uploading and installing your private app in Zendesk](https://support.zendesk.com/hc/en-us/articles/203691246). 
+
 ### Why?
 We used to use [Highrise](http://www.highrisehq.com) but given that is hasn't received any improvent, we moved to [Pipedrive](http://www.pipedrive.com), but we couldn't read our contact information.
 
