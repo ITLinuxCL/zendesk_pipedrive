@@ -16,3 +16,8 @@ ul.options li.person {
 ul.options li.phone {
 	background-position: 0 -872px;
 }
+
+.add_contact {
+	margin-bottom: 10px;
+	text-align: center;
+}

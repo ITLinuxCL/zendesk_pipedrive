@@ -1,0 +1,10 @@
+<div class="add_contact">
+  <p>
+  	No se ha encontrado ningún contacto con esta dirección de correo electrónico
+  </p>
+  <p>
+  	<br/>
+  	<a href="#" id="create_contact" onclick="return false;">Agregar este usuario de Zendesk a Pipedrive
+  </a>
+  </p>
+</div>

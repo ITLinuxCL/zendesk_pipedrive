@@ -1,5 +1,6 @@
 (function() {	
 	return {
+
 		requests: {
 			fetchContactInfo: function(email, token) {
 				return {
@@ -11,15 +12,27 @@
 		},
 		
 		events: {
-			'app.activated':'doSomething'
+			'app.activated': 'doSomething',
+			'click #create_contact': 'createContact'
+		},
+		
+		createContact: function(){
+			var contact = this.ticket().requester();
+			
 		},
 		
 		doSomething: function() {
 			var requester_email = this.ticket().requester().email();
 			this.ajax('fetchContactInfo', requester_email , this.setting("pipedrive_token") )
 			.done(function(data){
-				var contact = data.data[0];
-				this.switchTo('contact', contact);
+				if (data.data) {
+					var contact = data.data[0];
+					this.switchTo('contact', contact);	
+				} else {
+					this.switchTo('new_contact');
+				}
+				
+				
 			});
 		}
 	};
