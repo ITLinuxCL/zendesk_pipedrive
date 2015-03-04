@@ -1,19 +1,28 @@
-# Todos
+# Zendesk Pipedrive contact information
 
-* Que pasa cuando hay un error de conexion
-* Que pasa cuando no encuentra contacto, ¿debería ofrecer agregarlo?
+Display and update contact information from [Pipedrive](http://www.pipedrive.com) directly on [Zendesk](http://www.zendesk.com).
 
-# App name
+### Why?
+We used to use [Highrise](http://www.highrisehq.com) but given that is hasn't received any improvent, we moved to [Pipedrive](http://www.pipedrive.com), but we couldn't read our contact information.
 
-[brief description of the app]
+So we built it our selfs.
 
 ### The following information is displayed:
 
-* info1
-* info2
-* info3
+* Company name
+* Person name
+* Person Phone
+* Person Email
 
-Please submit bug reports to [Insert Link](). Pull requests are welcome.
+If the contact does not exists on Pipedrive, it let you create it.
+
+Please submit bug reports hera as Issues. Pull requests are welcome.
 
 ### Screenshot(s):
-[put your screenshots down here.]
+![Screenshot](https://raw.github.com/ITLinuxCL/zendesk_pipedrive/master/assets/screenshot.png)
+
+# Todos
+
+* Mostly check and manage API errors
+* Add company in Pipedrive if it doesn't exists
+

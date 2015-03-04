@@ -1,8 +1,8 @@
 {
-  "new_contact":{
-	  "not_found": "Not contact found for this email address",
-	  "add_contact": "Add this Zendesk user to Pipedrive"
-  },
+	"new_contact":{
+	  "not_found": "No se ha encontrado ningún contacto con esta dirección de correo electrónico",
+	  "add_contact": "Agregar este usuario de Zendesk a Pipedrive"
+	},
   "app": {
     "package": "app_name",
     "description": {

@@ -2,9 +2,13 @@
   <li class="person">
     <b><a target="_blank" href="https://app.pipedrive.com/person/details/{{id}}">{{ name }} </a></b>
   </li>
-  <li>{{ org_name }}</li>
+  {{#if org_name }}
+	  <li>{{ org_name }}</li>
+  {{/if}}
   <li class="email"><a href="mailto:{{ email }}">{{ email }}</a></li>
-  <li class="phone">
-	  <b>{{ phone }}</b>
-  </li>
+  {{#if phone}}
+	  <li class="phone">
+		  <b>{{ phone }}</b>
+	  </li>
+  {{/if}}
 </ul>
