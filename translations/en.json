@@ -1,8 +1,5 @@
 {
-  "new_contact":{
-	  "not_found": "Not contact found for this email address",
-	  "add_contact": "Add this Zendesk user to Pipedrive"
-  },
+
   "app": {
     "package": "app_name",
     "description": {
@@ -54,5 +51,10 @@
   "groups": {
     "value": "Groups",
     "title": "user groups"
+  },
+  
+  "new_contact": {
+	  "not_found": "Not contact found for this email address",
+	  "add_contact": "Add this Zendesk user to Pipedrive"
   }
 }

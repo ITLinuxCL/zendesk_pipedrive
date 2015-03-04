@@ -1,12 +1,12 @@
 (function() {	
 	return {
 		buildContactObject: function(ticket){
-			requester = ticket.requester();
-			organization = ticket.organization();
+			var requester = ticket.requester();
+			var organization = ticket.organization();
 			return {
 				name: requester.name(),
 				email: requester.email()
-			}
+			};
 		},
 
 		requests: {
@@ -56,10 +56,8 @@
 			var contact = this.buildContactObject(this.ticket());
 			this.ajax('pushContactInfo', contact, this.setting("pipedrive_token"))
 			.done(function(data){
-				console.log(data);
-				person = data.data;
+				var person = data.data;
 				contact = {name: person.name, email: person.email[0].value, id: person.id , org_name: null, phone: null};
-				console.log(console);
 				this.switchTo('contact', contact);
 			});
 		},
